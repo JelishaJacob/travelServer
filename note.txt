@@ -1,0 +1,27 @@
+1. create new folder
+2. npm init - to create package.json
+3. npm i express
+4. create .gitignore file - include node_modules in init
+5. landing page creation - index.js
+
+in index.js
+    import express  - const express=require('express')
+    create server   - const server=expresss()
+    run server      - create port connection - server.listen()
+
+create .env file - BASE_URL=connection string from mongodb
+create connection file - code for connection
+
+npm i dotenv
+
+in index file 
+    import connection file
+    import dotenv - at begining
+    connect env file
+     output - mongodb connected
+
+
+model creation
+--------------
+
+npm i mongoose
